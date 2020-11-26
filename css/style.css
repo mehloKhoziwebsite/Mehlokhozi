@@ -694,7 +694,7 @@ section.background_bg_bottom {
 }
 
 .dark_gray.white_fonts h2 {
-	color: #17a5e9 !important;
+	color: #e98717 !important;
 }
 
 .dark_gray.light_silver_fonts h2 {
@@ -774,7 +774,7 @@ hr.dottad_border {
 	margin: 20px auto 0;
 	width: 80px;
 	height: 5px;
-	background: #17a5e9;
+	background: #e98717;
 }
 
 .main_heading.text_align_left::after {
@@ -2168,7 +2168,7 @@ section.dottad_star_bg {
 
 .counter i {
 	font-size: 70px;
-	color: #17a5e9;
+	color: #e98717;
 }
 
 .margin_bottom_30 {
@@ -2418,8 +2418,8 @@ span.skill {
 
 #accordion .panel.panel-default .panel-heading p a[aria-expanded="true"],
 #accordion .panel.panel-default:nth-child(1) .panel-heading p a {
-	background: #17a5e9;
-	border-color: #17a5e9;
+	background: #e98717;
+	border-color: #e98717;
 	color: #fff;
 }
 
@@ -2448,7 +2448,7 @@ span.skill {
 }
 
 #accordion .panel.panel-default .panel-heading p a[aria-expanded="false"] i {
-	color: #17a5e9 !important;
+	color: #e98717 !important;
 }
 
 #accordion .panel.panel-default .panel-heading p a[aria-expanded="false"] i.fa-angle-down {
@@ -2488,7 +2488,7 @@ span.skill {
 
 #accordion .panel.panel-default .panel-heading p a>i {
 	font-size: 20px;
-	color: #17a5e9;
+	color: #e98717;
 	margin: 0 10px 0 0;
 }
 
@@ -2557,7 +2557,7 @@ span.skill {
 }
 
 .price_table_active .price_no {
-	color: #ff9900;
+	color: #ffad00;
 }
 
 .price_table_active {
@@ -2745,7 +2745,7 @@ span.skill {
 .categary li:hover,
 .categary li:focus {
 	padding-left: 30px;
-	background: #ff9900;
+	background: #ffad00;
 }
 
 .categary li:hover a,
@@ -2765,7 +2765,7 @@ span.skill {
 .tags a:hover,
 .tags a:focus {
 	color: #fff !important;
-	border: solid #17a5e9 1px !important;
+	border: solid #e98717 1px !important;
 }
 
 .tags li {
@@ -2845,7 +2845,7 @@ span.skill {
 	padding: 30px 0;
 	float: left;
 	width: 100%;
-	border-top: solid #ff9900 8px;
+	border-top: solid #ffad00 8px;
 }
 
 .blog_head {
@@ -2865,7 +2865,7 @@ span.skill {
 .blog_feature_cantant li {
 	font-weight: 500;
 	font-size: 14px;
-	color: #ff9900;
+	color: #ffad00;
 	float: left;
 	margin-right: 15px;
 }
@@ -2876,7 +2876,7 @@ span.skill {
 
 .blog_feature_cantant li a:hover,
 .blog_feature_cantant li a:focus {
-	color: #ff9900;
+	color: #ffad00;
 }
 
 .blog_feature_cantant p {
@@ -2896,7 +2896,7 @@ span.skill {
 
 .read_more:hover,
 .read_more:focus {
-	color: #ff9900;
+	color: #ffad00;
 }
 
 .shr {
@@ -3112,7 +3112,7 @@ span.skill {
 .product_list:hover,
 .product_list:focus {
 	box-shadow: 0 0 25px -17px #000;
-	border-bottom: solid #17a5e9 5px;
+	border-bottom: solid #e98717 5px;
 }
 
 .product_img {
@@ -3441,7 +3441,7 @@ footer ul.social_icons {
 	height: auto;
 	left: 0;
 	padding: 18px 0;
-
+	/*padding-left: 35%;*/
 }
 
 .cprt p {
@@ -3490,7 +3490,7 @@ footer ul.social_icons {
 
 .gross_layout::before {
 	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
+	background: rgba(255, 184, 31, 0.8);
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -3515,7 +3515,7 @@ footer ul.social_icons {
 
 .gross_layout.right_gross_layout::before {
 	position: absolute;
-	background: rgba(10, 139, 199, 0.8);
+	background: rgba(255, 184, 31, 0.8);
 	width: 35%;
 	height: 100%;
 	left: 0;
@@ -3732,8 +3732,8 @@ footer ul.social_icons {
 
 .team_blog_colum:hover,
 .team_blog_colum:focus {
-	background: #17a5e9;
-	border-color: #17a5e9;
+	background: #e98717;
+	border-color: #e98717;
 }
 
 .team_blog_colum:hover h4,
@@ -3756,8 +3756,8 @@ footer ul.social_icons {
 	font-size: 40px;
 	color: #fff;
 	transition: ease all 0.5s;
-	border: solid #17a5e9 2px;
-	background: #17a5e9;
+	border: solid #e98717 2px;
+	background: #e98717;
 }
 
 .service_blog_inner2 {
@@ -3767,9 +3767,9 @@ footer ul.social_icons {
 
 .service_blog_inner2:hover .icon,
 .service_blog_inner2:focus .icon {
-	border: solid #17a5e9 2px;
+	border: solid #e98717 2px;
 	background: #fff;
-	color: #17a5e9;
+	color: #e98717;
 }
 
 .topbar-hightlight a {
@@ -4011,7 +4011,7 @@ footer ul.social_icons {
 }
 
 .product_detail .tab_bar_section ul.nav.nav-tabs li a.active {
-	background: #ff9900;
+	background: #ffad00;
 	color: #fff;
 }
 
@@ -4276,7 +4276,7 @@ footer ul.social_icons {
 	height: 45px;
 	line-height: 45px;
 	margin: 33px 0 0 30px;
-	background: #ff9900;
+	background: #ffad00;
 	transition: ease all 0.5s;
 	border: none;
 	color: #fff;
@@ -4284,7 +4284,7 @@ footer ul.social_icons {
 }
 
 .shopping-cart .button {
-	background: #ff9900;
+	background: #ffad00;
 	color: #fff;
 }
 
@@ -4321,7 +4321,7 @@ footer ul.social_icons {
 .tab-info.coupon-section p a:hover,
 .tab-info.login-section p a:focus,
 .tab-info.coupon-section p a:focus {
-	color: #ff9900;
+	color: #ffad00;
 }
 
 .bt_main {
@@ -4337,7 +4337,7 @@ footer ul.social_icons {
 	border: none;
 	padding: 0 35px;
 	cursor: pointer;
-	background: #ff9900;
+	background: #ffad00;
 }
 
 .btn-login .bt_main {
@@ -4526,7 +4526,7 @@ footer ul.social_icons {
 }
 
 .adress_cont i {
-	color: #ff9900;
+	color: #ffad00;
 }
 
 .contant_form p {
