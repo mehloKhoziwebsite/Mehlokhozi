@@ -3205,7 +3205,7 @@ span.skill {
 	-------------------------------------------------------------------*/
 
 .testmonial_section {
-	background-image: url('../images/it_service/test_bg.png');
+	background-image: url('../images/mehlokhozi_service/test_bg.png');
 	background-size: cover;
 	padding-bottom: 185px;
 }
@@ -3478,7 +3478,7 @@ footer ul.social_icons {
 
 .gross_layout::after {
 	position: absolute;
-	background: url(../images/it_service/dark_bg_img.png);
+	background: url(../images/mehlokhozi_service/dark_bg_img.png);
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -3503,7 +3503,7 @@ footer ul.social_icons {
 
 .gross_layout.right_gross_layout::after {
 	position: absolute;
-	background: url(../images/it_service/dark_bg_img2.png);
+	background: url(../images/mehlokhozi_service/dark_bg_img2.png);
 	width: 35%;
 	height: 100%;
 	left: 0;
@@ -3611,7 +3611,7 @@ footer ul.social_icons {
 }
 
 .inner_banner_section {
-	background: url('../images/it_service/inner_page_banner.jpg');
+	background: url('../images/mehlokhozi_service/inner_page_banner.jpg');
 	min-height: 245px;
 	background-size: cover;
 	background-position: center center;
@@ -3780,11 +3780,11 @@ footer ul.social_icons {
 	margin-top: 35px;
 }
 
-.it_service_policy .col-md-12>div.full {
+.mehlokhozi_service_policy .col-md-12>div.full {
 	margin-bottom: 30px;
 }
 
-.it_service_policy h3 {
+.mehlokhozi_service_policy h3 {
 	font-size: 16px;
 	font-weight: 700;
 	margin-bottom: 15px;
@@ -4792,7 +4792,7 @@ footer ul.social_icons {
 	left: -24px;
 }
 
-.it_team_img img {
+.mehlokhozi_team_img img {
 	width: 100%;
 }
 
