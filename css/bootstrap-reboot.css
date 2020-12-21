@@ -27,6 +27,13 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+/*----------------------------------[ dark_mode] -----*/
+:root{
+	--dark-background-color: #1f1f1f;
+}
+body.theme-dark {
+	--background-color: var(--dark-background-color);
+}
 
 body {
   margin: 0;
@@ -36,9 +43,14 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  --background-color: #fff;
+	background: var(--background-color);
 }
-
+@media (prefers-color-scheme: dark) {
+  body.theme-auto {
+      --background-color: var(--dark-background-color);
+  }
+}
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
