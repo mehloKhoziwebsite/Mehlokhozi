@@ -96,13 +96,16 @@ body.demos .service-widget h3 {
 	border-bottom: 1px solid #ededed;
 	font-size: 18px;
 	padding: 20px 0;
-	background-color: #ffffff;
+	--background-color: #ffffff;
+	background: var(--background-color);
 }
 
 body.demos .service-widget {
 	margin: 0 0 30px;
 	padding: 30px;
-	background-color: #fff
+	--background-color: #fff;
+	background: var(--background-color);
+	
 }
 
 body.demos .container-fluid {
@@ -1010,7 +1013,178 @@ header .right_bt .btn {
 	float: right;
 	width: auto;
 }
+/*----------------------------------[ dark_mode] -----*/
+:root{
+	--dark-background-color: #1f1f1f;
+}
+body.theme-dark {
+	--background-color: var(--dark-background-color);
+}
+@media (prefers-color-scheme: dark) {
+    body.theme-auto {
+        --background-color: var(--dark-background-color);
+    }
+}
 
+.main_menu div#dark_mode ul li a i {
+	font-weight: 600;
+}
+#dark_mode,
+#dark_mode ul,
+#dark_mode ul li,
+#dark_mode ul li a,
+#dark_mode #menu-button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	line-height: 1;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#dark_mode ul,
+#dark_mode ul li,
+#dark_mode ul li a,
+#dark_mode #menu-button {
+	position: relative;
+}
+#dark_mode:after,
+#dark_mode>ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#dark_mode #menu-button {
+	display: none;
+}
+#dark_mode {
+	float: left;
+}
+#dark_mode>ul>li {
+	float: left;
+}
+
+#dark_mode.align-center>ul {
+
+	text-align: center;
+}
+
+#dark_mode.align-center>ul>li {
+	display: inline-block;
+	float: none;
+}
+
+#dark_mode.align-center ul ul {
+	text-align: left;
+}
+
+#dark_mode.align-right>ul>li {
+	float: right;
+}
+
+#dark_mode>ul>li>a {
+	
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#dark_mode ul ul {
+	position: absolute;
+	left: -9999px;
+}
+
+#dark_mode.align-right ul ul {
+	text-align: right;
+}
+
+#dark_mode ul ul li {
+	height: 0;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+#dark_mode li:hover>ul {
+	left: auto;
+}
+
+#dark_mode.align-right li:hover>ul {
+	left: auto;
+	right: 0;
+}
+
+#dark_mode li:hover>ul>li {
+	height: 45px;
+}
+
+#dark_mode ul ul ul {
+	margin-left: 100%;
+	top: 0;
+}
+
+#dark_mode.align-right ul ul ul {
+	margin-left: 0;
+	margin-right: 100%;
+}
+
+#dark_mode ul ul li a {
+	
+	font-size: 14px;
+	color: #999;
+	font-weight: 500;
+	background: #fff;
+	color: #666 !important;
+}
+
+#dark_mode ul ul li:last-child>a,
+#dark_mode ul ul li.last-item>a {}
+
+#dark_mode ul ul li:hover>a,
+#dark_mode ul ul li a:hover {
+	color: #ffffff;
+}
+
+#dark_mode ul ul {
+	width: 250px;
+	box-shadow: 0 5px 35px -18px #000;
+	border-top: solid #000 2px;
+}
+
+#dark_mode ul ul li a:hover,
+#dark_mode ul ul li a:focus {
+	color: #fff !important;
+	
+}
+
+/*-- header style 2 --*/
+
+.header_style_2 #dark_mode {
+	margin: 12px 0 11px;
+	float: left;
+}
+.main_bg #dark_mode>ul>li>a {
+	color: #fff;
+}
+.menu_bottom_section #dark_mode {
+	margin: 0;
+	float: left;
+}
+
+.menu_bottom_section #dark_mode>ul>li>a {
+	
+	color: #eee;
+	text-transform: uppercase;
+}
+/*--------------------------------------[ dark_mode end ] -----*/
 .main_menu div#navbar_menu ul li a i {
 	font-weight: 600;
 }
