@@ -76,8 +76,24 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-          <!-- logo start -->
-          <div class="logo"> <a href="mehlokhozi_home.html"><img src="images/logos/Mehlo_logo.png" alt="logo" /></a> </div>
+                    <!-- logo start -->
+          <div class="logo">
+          <div id="dark_mode">
+            <ul class="first-ul">
+              <li> <a href="mehlokhozi_home.html"><img src="images/logos/Mehlo_logo.png" alt="logo" /></a>
+                <ul>
+                <!-- dark mode start-->
+                  <select class="select__input" id="selTheme">
+                    <option value="auto">Auto</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+                <!-- dark mode end-->
+                </ul>
+              </li>
+            </ul>
+          </div>
+          </div>
           <!-- logo end -->
         </div>
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
@@ -579,5 +595,29 @@
 <!-- google map js -->
 <script src="https://www.google.com/maps/place/Mehlokhozi/@-26.0254093,28.2022091,15z/data=!4m5!3m4!1s0x0:0xcca0945e5324ee8c!8m2!3d-26.0254093!4d28.2022091"></script>
 <!-- end google map js -->
+<!--dark mode start-->
+    <script>
+      function applyTheme(theme) {
+        document.body.classList.remove("theme-auto", "theme-light", "theme-dark");
+            document.body.classList.add(`theme-${theme}`);
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        const savedTheme = localStorage.getItem("theme") || "auto";
+
+        applyTheme(savedTheme);
+
+        for (const optionElement of document.querySelectorAll("#selTheme option")) {
+              optionElement.selected = savedTheme === optionElement.value;
+          }
+          
+              document.querySelector("#selTheme").addEventListener("change", function() {
+                localStorage.setItem("theme",this.value);
+                    applyTheme(this.value);
+          });
+      });
+    </script>
+<!--dark mode end-->
+
 </body>
 </html>

@@ -1,7 +1,65 @@
 /*------------------------------------------------------------------
     File Name: colors1_dark.css
 -------------------------------------------------------------------*/
-
+/*------------------------------------------------------------------
+	color theme dark_mode
+	
+-------------------------------------------------------------------*/
+.header_top,
+#dark_mode ul ul li a:hover,
+#dark_mode ul ul li a:focus,
+.full_slider_inner,
+.bg_load,
+.theme_color_bg,
+.price_table_active .price_head,
+a.btn.dark_gray_bt:hover,
+a.btn.dark_gray_bt:focus,
+.carousel-indicators .active,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.progress-bar,
+.tags a:hover,
+.tags a:focus,
+.testimonial_slider .carousel-control:hover,
+.testimonial_slider .carousel-control:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.icon_feature {
+	background: #ffad00;
+    background-size: 100% 100%;
+    border: none;
+}
+#dark_mode > ul > li a.active,
+#dark_mode > ul > li:hover > a,
+#dark_mode> ul > li:focus > a,
+footer p a:hover,footer p a:focus,
+.footer-menu li a:hover,
+.footer-menu li a:focus,
+footer ul.social_icons li a:hover,
+footer ul.social_icons li a:focus,
+.breadcrumb li a {
+    color: #ffad00;
+}
+#dark_mode ul ul,
+hr.dottad_border,
+.social_icon_style_2 ul li a:hover,
+.social_icon_style_2 ul li a:focus,
+.tags a:hover,
+.tags a:focus,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
+.comment_section,
+.boder_dottat_small {
+	border-color: #ffad00;
+}
 
 /*------------------------------------------------------------------
     color theme
